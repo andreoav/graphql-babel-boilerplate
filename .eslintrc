@@ -1,0 +1,16 @@
+{
+  "extends": ["plugin:prettier/recommended", "airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "linebreak-style": 0,
+    "import/prefer-default-export": 0
+  }
+}
